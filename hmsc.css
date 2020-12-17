@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    
+    
+    top: 0%;
+    cursor: pointer;
+    flex-direction: column;
+
+}
+.navlist{
+width: 100%;
+position: sticky;
+
+display: flex;
+align-items: center;
+background-color: hotpink;
+width: 100%;
+opacity: 0.8;
+
+
+}
+.navlist li{
+    list-style: none;
+    padding: 6px;
+
+}
+
+.navlist a{
+    text-decoration: none;
+    color: black;
+    margin: 2px;
+    padding: 6px ;
+
+}
+.navlist a:hover{
+    text-decoration: none;
+    color:burlywood;
+}
+.rightnav{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   
+    margin: 6px;
+    outline:none;
+    border: none;
+    
+   
+    
+    
+   
+    
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    
+    width: 33%;
+    border: 1px solid black;
+    border-radius: 50px;
+
+}
+#search{
+    width: 100%;
+    height: 32px;
+    padding: 5px;
+    margin: 7px;
+    font-size: 17px;
+    border: 1px solid seagreen;
+    border-radius: 16px;
+    outline: none;
+}
+
+
+.background{
+    background: url(img/hmsback.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    outline: none;
+
+}
+
+.btnsm{
+    width: 50%;
+    display: block;
+    background-color:tomato;
+cursor: pointer;
+    border: 1px solid red;
+    padding: 6px;
+    margin: auto;
+    border-radius: 18px;
+    outline: none;
+    display: flex;
+}
+.btnsm:hover{
+    color:black;
+    background-color: red;
+}
+.cor{
+    width: 50%;
+    margin: 20px;
+    font-size: 24px;
+    font-style: normal;
+    color: black;
+}
+.rnav{
+    
+    position: sticky;
+    left: 88%;
+    top: 1%;
+    margin: 4px;
+}
+.btnn{
+    
+    padding: 8px;
+    margin: 5px;
+    cursor: pointer;
+    color: cornsilk;
+    background-color: darkred;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none;
+    position: sticky;
+}
+.btnnn{
+    outline: none;
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+    color: cornsilk;
+    background-color: darkgreen;
+    border: 1px solid grey;
+    border-radius: 6px;
+    position: sticky;
+}
+.btnn:hover{
+    background-color: darkslategray;
+}
+.btnnn:hover{
+    background-color: darkslategray;
+}
+.slide{
+    
+    width: 50%;;
+    margin: auto;
+}
+.carousel slide carousel-indicators{
+    color: black;
+}
+.spec{
+    
+    background-color: rgb(219, 213, 208);
+    border: sienna;
+    
+}
+.spec h2{
+    color: darkslategray;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+}
+.spec p{
+    color: black;
+    text-align: center;
+    justify-content: center;
+    font-size: 24px;
+}
+.spec i{
+    
+    margin: 60px;
+    
+    
+        font-size: 74px;
+        border: 1px;
+        border-radius: 50%;
+        /* color: white; */
+        background-color: white;
+        padding: 10px;
+        position: relative;
+        left: 120px;
+    
+}
+
+.specality{
+    display: flex;
+}
+.specality h3{
+    position: relative;
+    top: 140px;
+    left: -17px;
+    color: black;
+}
+.hero{
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-size: 50px;
+}   
